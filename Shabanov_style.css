@@ -47,8 +47,33 @@ nav li {
     font: 90% Georgia;
     border-bottom: 1px dotted black;
 }
-bav h2 {
+nav h2 {
     font: 110% Georgia;
     color: rgb(201,12,249);
     border-bottom: 1px dotted rgb(247,150,4);
+}
+main {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 78%;
+    height: 80%;
+    padding-left: 0px;
+    overflow: scroll;
+}
+main h1 {
+    font: 150% Georgia;
+    font-weight: 800;
+    color: rgb(88,15,247);
+}
+main h2 {
+    font: 130% Georgia;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(66,50,231);
+}
+main p {
+    font: 100% Georgia;
+    color: rgb(66,50,231);
+    text-align: justify;
 }
